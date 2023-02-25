@@ -1,0 +1,10 @@
+@media(max-width: 480px) {
+    h1{
+        color: aquamarine;
+    }
+}
+@media (max-width: 787px) {
+    .item {
+        width: 20%;
+    }
+}

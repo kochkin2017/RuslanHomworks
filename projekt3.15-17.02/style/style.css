@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 65%;
+    margin:40px auto;
+    padding: 40px;
+    background-color: rgb(242, 242, 242);
+}
+h1, h2 {
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 30px;
+    margin-left: 55px;
+    padding: 5px;
+}
+table {
+    border: 2px solid rgb(186, 10, 10);
+    margin-left: 50px;
+    background-color: rgb(238, 250, 244);
+}
+td, th {
+    font-size: 30px;
+    border: 1px solid black;
+}
+.item {
+    width: calc(10% - 10px);
+    height: calc(100vh/14);
+    background-color: bisque;
+    margin: 5px;
+    border-radius:  16px;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: left;
+}
+.item-1 {
+        background-image: url(../imag/250px-Flag_of_the_United_States_\(Pantone\).svg.png);
+    }
+.item-2 {
+        background-image: url(../imag/Flag_of_Europe.svg.webp);
+    }
+.item-3 {
+        background-image: url(../imag/Flag_of_the_United_Kingdom_\(3-5\).svg.png);
+    }
+.item-4 {
+        background-image: url(../imag/Flag_of_Poland.svg.webp);
+    }
+.item-5 {
+    background-image: url(../imag/Flag_of_Ukraine.svg.webp);
+}
